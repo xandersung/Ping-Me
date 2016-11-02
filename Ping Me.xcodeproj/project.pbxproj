@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		C04D2C6F1DC9664200EBA47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2C6E1DC9664200EBA47F /* AppDelegate.swift */; };
-		C04D2C711DC9664200EBA47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2C701DC9664200EBA47F /* ViewController.swift */; };
-		C04D2C741DC9664200EBA47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04D2C721DC9664200EBA47F /* Main.storyboard */; };
 		C04D2C761DC9664200EBA47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04D2C751DC9664200EBA47F /* Assets.xcassets */; };
 		C04D2C791DC9664200EBA47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04D2C771DC9664200EBA47F /* LaunchScreen.storyboard */; };
 		C04D2C841DC9664200EBA47F /* Ping_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2C831DC9664200EBA47F /* Ping_MeTests.swift */; };
 		C04D2C8F1DC9664200EBA47F /* Ping_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2C8E1DC9664200EBA47F /* Ping_MeUITests.swift */; };
+		C04D2CAA1DC966C600EBA47F /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04D2C9C1DC966C600EBA47F /* Schedule.storyboard */; };
+		C04D2CAB1DC966C600EBA47F /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2C9D1DC966C600EBA47F /* ScheduleCell.swift */; };
+		C04D2CAC1DC966C600EBA47F /* LengthOfPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2C9E1DC966C600EBA47F /* LengthOfPlayViewController.swift */; };
+		C04D2CAD1DC966C600EBA47F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04D2C9F1DC966C600EBA47F /* Login.storyboard */; };
+		C04D2CAE1DC966C600EBA47F /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2CA01DC966C600EBA47F /* FadeTransition.swift */; };
+		C04D2CAF1DC966C600EBA47F /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2CA11DC966C600EBA47F /* BaseTransition.swift */; };
+		C04D2CB01DC966C600EBA47F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2CA21DC966C600EBA47F /* SignUpViewController.swift */; };
+		C04D2CB11DC966C600EBA47F /* Common (2).swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2CA31DC966C600EBA47F /* Common (2).swift */; };
+		C04D2CB21DC966C600EBA47F /* ReserveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2CA41DC966C600EBA47F /* ReserveTableViewController.swift */; };
+		C04D2CB31DC966C600EBA47F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2CA51DC966C600EBA47F /* LoginViewController.swift */; };
+		C04D2CB41DC966C600EBA47F /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2CA61DC966C600EBA47F /* SuccessViewController.swift */; };
+		C04D2CB51DC966C600EBA47F /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D2CA71DC966C600EBA47F /* ScheduleViewController.swift */; };
+		C04D2CB61DC966C600EBA47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04D2CA91DC966C600EBA47F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +47,6 @@
 /* Begin PBXFileReference section */
 		C04D2C6B1DC9664200EBA47F /* Ping Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ping Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04D2C6E1DC9664200EBA47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C04D2C701DC9664200EBA47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C04D2C731DC9664200EBA47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C04D2C751DC9664200EBA47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04D2C781DC9664200EBA47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04D2C7A1DC9664200EBA47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +56,19 @@
 		C04D2C8A1DC9664200EBA47F /* Ping MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ping MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04D2C8E1DC9664200EBA47F /* Ping_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ping_MeUITests.swift; sourceTree = "<group>"; };
 		C04D2C901DC9664200EBA47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04D2C9C1DC966C600EBA47F /* Schedule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Schedule.storyboard; path = "../../Reserve-Me/Reseve Me/Schedule.storyboard"; sourceTree = "<group>"; };
+		C04D2C9D1DC966C600EBA47F /* ScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleCell.swift; path = "../../Reserve-Me/Reseve Me/ScheduleCell.swift"; sourceTree = "<group>"; };
+		C04D2C9E1DC966C600EBA47F /* LengthOfPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LengthOfPlayViewController.swift; path = "/Users/macbook/Desktop/CodePath/Reserve-Me/Reseve Me/../../../../Downloads/Reseve Me/Reseve Me/LengthOfPlayViewController.swift"; sourceTree = "<absolute>"; };
+		C04D2C9F1DC966C600EBA47F /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = "/Users/macbook/Desktop/CodePath/Reserve-Me/Reseve Me/../../../Reserve-Me/Reseve Me/Login.storyboard"; sourceTree = "<absolute>"; };
+		C04D2CA01DC966C600EBA47F /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = "/Users/macbook/Desktop/CodePath/Reserve-Me/Reseve Me/../../../Reserve-Me/Reseve Me/FadeTransition.swift"; sourceTree = "<absolute>"; };
+		C04D2CA11DC966C600EBA47F /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseTransition.swift; path = "/Users/macbook/Desktop/CodePath/Reserve-Me/Reseve Me/../../../Reserve-Me/Reseve Me/BaseTransition.swift"; sourceTree = "<absolute>"; };
+		C04D2CA21DC966C600EBA47F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "/Users/macbook/Desktop/CodePath/Reserve-Me/Reseve Me/../../../Reserve-Me/Reseve Me/SignUpViewController.swift"; sourceTree = "<absolute>"; };
+		C04D2CA31DC966C600EBA47F /* Common (2).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Common (2).swift"; path = "/Users/macbook/Desktop/CodePath/Reserve-Me/Reseve Me/../../../Reserve-Me/Reseve Me/Common (2).swift"; sourceTree = "<absolute>"; };
+		C04D2CA41DC966C600EBA47F /* ReserveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReserveTableViewController.swift; path = "/Users/macbook/Desktop/CodePath/Reserve-Me/Reseve Me/../../../../Downloads/Reseve Me/Reseve Me/ReserveTableViewController.swift"; sourceTree = "<absolute>"; };
+		C04D2CA51DC966C600EBA47F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "/Users/macbook/Desktop/CodePath/Reserve-Me/Reseve Me/../../../Reserve-Me/Reseve Me/LoginViewController.swift"; sourceTree = "<absolute>"; };
+		C04D2CA61DC966C600EBA47F /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuccessViewController.swift; path = "/Users/macbook/Desktop/CodePath/Reserve-Me/Reseve Me/../../../../Downloads/Reseve Me/Reseve Me/SuccessViewController.swift"; sourceTree = "<absolute>"; };
+		C04D2CA71DC966C600EBA47F /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleViewController.swift; path = "../../Reserve-Me/Reseve Me/ScheduleViewController.swift"; sourceTree = "<group>"; };
+		C04D2CA81DC966C600EBA47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/Reseve Me/Reseve Me/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +120,21 @@
 			isa = PBXGroup;
 			children = (
 				C04D2C6E1DC9664200EBA47F /* AppDelegate.swift */,
-				C04D2C701DC9664200EBA47F /* ViewController.swift */,
-				C04D2C721DC9664200EBA47F /* Main.storyboard */,
 				C04D2C751DC9664200EBA47F /* Assets.xcassets */,
 				C04D2C771DC9664200EBA47F /* LaunchScreen.storyboard */,
+				C04D2C9C1DC966C600EBA47F /* Schedule.storyboard */,
+				C04D2C9D1DC966C600EBA47F /* ScheduleCell.swift */,
+				C04D2C9E1DC966C600EBA47F /* LengthOfPlayViewController.swift */,
+				C04D2C9F1DC966C600EBA47F /* Login.storyboard */,
+				C04D2CA01DC966C600EBA47F /* FadeTransition.swift */,
+				C04D2CA11DC966C600EBA47F /* BaseTransition.swift */,
+				C04D2CA21DC966C600EBA47F /* SignUpViewController.swift */,
+				C04D2CA31DC966C600EBA47F /* Common (2).swift */,
+				C04D2CA41DC966C600EBA47F /* ReserveTableViewController.swift */,
+				C04D2CA51DC966C600EBA47F /* LoginViewController.swift */,
+				C04D2CA61DC966C600EBA47F /* SuccessViewController.swift */,
+				C04D2CA71DC966C600EBA47F /* ScheduleViewController.swift */,
+				C04D2CA91DC966C600EBA47F /* Main.storyboard */,
 				C04D2C7A1DC9664200EBA47F /* Info.plist */,
 			);
 			path = "Ping Me";
@@ -232,9 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04D2CAD1DC966C600EBA47F /* Login.storyboard in Resources */,
+				C04D2CB61DC966C600EBA47F /* Main.storyboard in Resources */,
 				C04D2C791DC9664200EBA47F /* LaunchScreen.storyboard in Resources */,
 				C04D2C761DC9664200EBA47F /* Assets.xcassets in Resources */,
-				C04D2C741DC9664200EBA47F /* Main.storyboard in Resources */,
+				C04D2CAA1DC966C600EBA47F /* Schedule.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +294,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C04D2C711DC9664200EBA47F /* ViewController.swift in Sources */,
+				C04D2CB31DC966C600EBA47F /* LoginViewController.swift in Sources */,
+				C04D2CB01DC966C600EBA47F /* SignUpViewController.swift in Sources */,
+				C04D2CAB1DC966C600EBA47F /* ScheduleCell.swift in Sources */,
+				C04D2CAF1DC966C600EBA47F /* BaseTransition.swift in Sources */,
+				C04D2CAC1DC966C600EBA47F /* LengthOfPlayViewController.swift in Sources */,
+				C04D2CB21DC966C600EBA47F /* ReserveTableViewController.swift in Sources */,
+				C04D2CAE1DC966C600EBA47F /* FadeTransition.swift in Sources */,
 				C04D2C6F1DC9664200EBA47F /* AppDelegate.swift in Sources */,
+				C04D2CB41DC966C600EBA47F /* SuccessViewController.swift in Sources */,
+				C04D2CB51DC966C600EBA47F /* ScheduleViewController.swift in Sources */,
+				C04D2CB11DC966C600EBA47F /* Common (2).swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +340,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C04D2C721DC9664200EBA47F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C04D2C731DC9664200EBA47F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C04D2C771DC9664200EBA47F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C04D2C781DC9664200EBA47F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C04D2CA91DC966C600EBA47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C04D2CA81DC966C600EBA47F /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../Reserve-Me/Reseve Me";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
